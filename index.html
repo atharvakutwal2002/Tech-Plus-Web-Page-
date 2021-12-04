@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Tech</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />     original   -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div id="menu-bar" class="fas fa-bars"></div>
+
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo" />
+      </div>
+      <!-- <div class="btn">
+        <div class="btns">
+          <a href="#">Home</a>
+        </div>
+        <div class="btns">
+          <a href="#">Contact</a>
+        </div>
+        <div class="btns">
+          <a href="#">About</a>
+        </div>
+      </div> -->
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#allcourses">Courses</a>
+        <a href="#contactus">Contact</a>
+        <a href="#aboutus">About</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+      <form action="" class="search-bar-container">
+        <input
+          type="search"
+          id="search-bar"
+          placeholder="search Courses here"
+        />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+
+      <form action="">
+        <h3>login</h3>
+        <input
+          type="email"
+          name=""
+          class="box"
+          id=""
+          placeholder="Enter your Email "
+        />
+        <input
+          type="password"
+          name=""
+          class="box"
+          id=""
+          placeholder="Enter your Password"
+        />
+        <input type="submit" value="login now" class="btn" />
+        <input type="checkbox" name="" id="remember" />
+        <label for="remember">remember me</label>
+        <p>forgot password? <a href="#">Click here</a></p>
+        <p>Don't have account? <a href="#">register</a></p>
+      </form>
+    </div>
+
+    <section class="home" id="home">
+      <div class="content">
+        <div class="form">
+          <h1>Unlimited Courses</h1>
+          <h3>Learn Anything , Anywhere</h3>
+          <h4>
+            Ready to Learn? Enter your email to create or restart your
+            membership
+          </h4>
+          <input type="submit" value="Register now" class="btn" />
+        </div>
+      </div>
+      <div class="img-container">
+        <img src="./img/background.jpg" alt="" />
+      </div>
+    </section>
+
+    <section class="courses" id="courses">
+      <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>s</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./img/learntechnow.jpg" alt="" />
+        </div>
+        <form action="">
+          <div class="inputBox">
+            <h3>Search Courses</h3>
+            <input type="text" placeholder="Search Courses here" />
+          </div>
+          <div class="inputBox">
+            <h3>Your Interests</h3>
+            <input type="text" placeholder="Enter your interests" />
+          </div>
+          <input type="submit" class="btn" id="left-space" value="Submit" />
+        </form>
+      </div>
+    </section>
+
+    <section class="allcourses" id="allcourses">
+      <h1 class="heading">
+        <span>A</span>
+        <span>l</span>
+        <span>l</span>
+        <span class="space"> </span>
+        <span>C</span>
+        <span>o</span>
+        <span>u</span>
+        <span>r</span>
+        <span>s</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/course-1.jpg" alt="" />
+          <div class="content">
+            <h3>HTML is easy to learn - You will enjoy it!</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$90.0 <span>$120.0</span></div>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/course-2.png" alt="" />
+          <div class="content">
+            <h3>This tutorial will teach you CSS from basic</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$110.0 <span>$150.0</span></div>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <img src="./img/course-3.png" alt="" />
+          <div class="content">
+            <h3>JavaScript is the programming language of the Web.</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="price">$115.0 <span>$140.0</span></div>
+            <a href="#" class="btn">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="aboutus" id="aboutus">
+      <h1 class="heading">
+        <span>A</span>
+        <span>b</span>
+        <span>o</span>
+
+        <span>u</span>
+        <span>t</span>
+        <span class="space"> </span>
+        <span>u</span>
+        <span>s</span>
+      </h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="aboutusimg">
+            <img src="./img/aboutusimg.png" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <h1>We share knowledge with the world</h1>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <h1>Changing learning for the better</h1>
+            <p>
+              Whether you want to learn or to share what you know, you’ve come
+              to the right place. As a global destination for online learning,
+              we connect people through knowledge.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="podcasts">
+      <h1 class="heading">
+        <span>O</span>
+        <span>u</span>
+        <span>r</span>
+        <span class="space"> </span>
+        <span>P</span>
+        <span>o</span>
+        <span>d</span>
+
+        <span>c</span>
+        <span>a</span>
+        <span>s</span>
+        <span>t</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="podcastimg">
+            <img src="./img/learntechpodcast.jpg" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <h1>New Technology Podcast</h1>
+            <h1>Insights from Tech Leaders</h1>
+            <p>
+              Hear stories and insights from today’s leading companies enabling
+              data-driven technologies. Mitigate risk and manage compliance from
+              design through sustainment with SiliconExpert.
+            </p>
+          </div>
+        </div>
+        <!-- <div class="box">
+          <div class="content">
+            <h1>Insights from Tech Leaders</h1>
+            <p>Hear stories and insights from today’s leading companies enabling data-driven technologies. Mitigate risk and manage compliance from design through sustainment with SiliconExpert. </p>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="tech-blogs">
+      <h1 class="heading">
+        <span>T</span>
+        <span>e</span>
+        <span>c</span>
+
+        <span>h</span>
+        <span class="space"> </span>
+        <span>T</span>
+        <span>i</span>
+
+        <span>p</span>
+        <span>s</span>
+        <span class="space"> </span>
+        <span>B</span>
+        <span>l</span>
+        <span>o</span>
+        <span>g</span>
+        <span>s</span>
+      </h1>
+
+      <div class="box-container">
+        <!-- <div class="box">
+          <div class="podcastimg">
+            <img src="./img/learntechpodcast.jpg" alt="">
+          </div>
+          
+        </div> -->
+        <div class="box">
+          <div class="content">
+            <h1>Tech Tips Blog</h1>
+            <h1>Welcome to Tech Tips!</h1>
+            <p>
+              BlogTechTips a blog devoted to improving you skills with learning
+              and using Technology. My aim is to teach you how to use tech to
+              your advantage.
+            </p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="podcastimg">
+            <img src="./img/techtipsblog.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+      <h1 class="heading">
+        <span>R</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+        <span>s</span>
+      </h1>
+
+      <div class="swiper mySwiper review-slider">
+        <div class="wrapper swiper-wrapper">
+          <div class="slider swiper-slide">
+            <div class="box">
+              <img src="./img/pic1.png" alt="" />
+              <h3>Elly Morgan</h3>
+              <p>
+                Many of my coworkers choose to use LearnTech-Plus for continuing
+                education. I feel it has the best selection.
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slider swiper-slide">
+            <div class="box">
+              <img src="./img/pic2.png" alt="" />
+              <h3>Nick Jordan</h3>
+              <p>
+                This is one of the good websites where a person can learn from
+                any domain and any field at a very affordable costs..
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slider swiper-slide">
+            <div class="box">
+              <img src="./img/pic3.png" alt="" />
+              <h3>Annie Doe</h3>
+              <p>
+                LearnTech-Plus is a great option for people who want to build or
+                enhance skills..
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slider swiper-slide">
+            <div class="box">
+              <img src="./img/pic4.png" alt="" />
+              <h3>John Miller</h3>
+              <p>
+                It has a variety of courses with multiple learning styles and
+                provides lifetime access
+              </p>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contactus" id="contactus">
+      <h1 class="heading">
+        <span>C</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span class="space"> </span>
+        <span>U</span>
+        <span>s</span>
+      </h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="./img/contactus.jpeg" alt="" />
+        </div>
+        <form action="">
+          <div class="inputBox">
+            
+            <input type="text" placeholder="Name" />
+            <input type="email" name="" id="" placeholder="email">
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="number" />
+            <input type="text" name="" id="" placeholder="subject">
+          </div>
+          <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn" id="left-space" value="Send Message" />
+        </form>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>About us</h3>
+          <p>LearnTech-Plus  mission is to create new possibilities for people and organizations everywhere by connecting them to the knowledge and skills they need to succeed in a changing world.</p>
+        </div>
+        <div class="box">
+          <h3>Branch locations</h3>
+          <a href="#">India</a>
+          <a href="#">USA</a>
+          <a href="#">Japan</a>
+          <a href="#">France</a>
+          
+        </div>
+        <div class="box">
+          <h3>Quick Links</h3>
+          <a href="#">Home</a>
+          <a href="#courses">courses</a>
+          <a href="#allcourses">All courses</a>
+          <a href="#reviews">reviews</a>
+          <a href="#contactus">Contact</a>
+          
+        </div>
+        <div class="box">
+          <h3>Follow Us</h3>
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">Twitter</a>
+          <a href="#">Linkedin</a>
+        </div>
+      </div>
+
+      <h1 class="credit">created by <span>Atharva Kutwal</span> | all rights reserved</h1>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>    original   -->
+    <script src="script.js"></script>
+  </body>
+</html>
